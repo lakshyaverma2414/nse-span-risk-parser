@@ -1,0 +1,101 @@
+# ========================
+# Python compiled files
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ========================
+# Virtual environments
+# ========================
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+.env
+
+# ========================
+# Build and distribution
+# ========================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========================
+# Data files
+# ========================
+# Keep Sample/ folder tracked, ignore generated outputs
+Test/
+*.csv       # ignore any generated CSVs outside Sample/
+*.xlsx
+*.zip       # ignore generated zips, keep Sample/ tracked
+*.spn       # ignore generated SPN, keep Sample/ tracked
+*.rar
+*.7z
+data/
+input/
+output/
+temp/
+tmp/
+
+# ========================
+# IDE and editor files
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ========================
+# OS generated files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================
+# Logs and temporary files
+# ========================
+*.log
+*.tmp
+*.temp
+
+# ========================
+# Jupyter Notebook
+# ========================
+.ipynb_checkpoints
+
+# ========================
+# mypy type checking
+# ========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ========================
+# Python version managers
+# ========================
+.python-version
